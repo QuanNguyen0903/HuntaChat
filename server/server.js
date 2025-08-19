@@ -56,6 +56,12 @@ app.use("/api/messages", messageRouter)
 // connect databSE
 await connectDb();
 
-const PORT = process.env.PORT || 5000;
+
+// iske abd vala tbhi cheleg jb hm local host pe chla rhe honge
+if(process.env.NODE_ENV !=="production"){
+    const PORT = process.env.PORT || 5000;
 
 server.listen(PORT, () => console.log("Server is running on PORT :" + PORT))
+}
+
+export default server
