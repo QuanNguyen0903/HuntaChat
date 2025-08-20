@@ -35,32 +35,6 @@ Here’s a ready-to-paste section:
 
 ## 🛠 Tech Stack
 
-**Frontend:**
-
-* ⚛️ React.js
-* 🎨 Tailwind CSS
-
-**Backend:**
-
-* 🟢 Node.js
-* 🚂 Express.js
-
-**Database & Storage:**
-
-* 🍃 MongoDB (Atlas)
-* ☁️ Cloudinary (for media uploads)
-
-**Real-Time Communication:**
-
-* 🔌 WebSockets / Socket.io
-
-**Deployment:**
-
-* ▲ Vercel (client & server with `vercel.json` config)
-
----
-## 🛠 Tech Stack
-
 | Category            | Technologies |
 |---------------------|--------------|
 | **Language**        | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) |
