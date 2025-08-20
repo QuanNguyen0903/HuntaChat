@@ -122,8 +122,8 @@ function ChatContainer() {
     ) : (
         <div className='flex flex-col items-center justify-center gap-2 text-gray-500
         bg-white/10 max-md:hidden'>
-            <img src={assets.logo_icon} className='max-w-16' alt='' />
-            <p className='text-lg font-medium text-white'>Chat anyTime, anywhere</p>
+            <img src={assets.chat_icon} className='max-w-40' alt='' />
+            <p className='text-2xl font-medium text-white'>Chat anyTime, anywhere</p>
         </div>
     )
 }

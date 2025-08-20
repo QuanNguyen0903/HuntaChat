@@ -30,7 +30,7 @@ const Sidebar = () => {
             <div className='pb-5'>
                 {/* isme logo and menu add krna h */}
                 <div className='flex justify-between items-center'>
-                    <img src={assets.logo} alt="logo" className='max-w-40' />
+                    <img src={assets.sidebar_logo_icon} alt="logo" className='max-w-40' />
                     {/* // isme hm menu iconn banayeb=ne jo bad me hover pe edit ka option dega */}
                     <div className=' relative py-2 group '>
                         <img src={assets.menu_icon} alt="Menu" className='max-w-5 cursor-pointer' />
